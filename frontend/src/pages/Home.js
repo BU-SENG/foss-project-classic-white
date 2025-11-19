@@ -2,17 +2,26 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 
-
 const Home = () => {
+  const token = localStorage.getItem('token'); // Check if user is logged in
+
   return (
     <div className="home-hero">
       {/* Hero Section */}
       <div className="hero-content">
         <h1>Welcome to Campus Queue Management</h1>
         <p>Join queues, manage your time, and skip long lines on campus.</p>
+
+        {/* Conditional buttons */}
         <div className="hero-buttons">
-          <Link to="/register" className="primary-btn">Get Started</Link>
-          <Link to="/login" className="secondary-btn">Login</Link>
+          {!token ? (
+            <>
+              <Link to="/register" className="primary-btn">Get Started</Link>
+              <Link to="/login" className="secondary-btn">Login</Link>
+            </>
+          ) : (
+            <Link to="/dashboard" className="primary-btn">Go to Dashboard</Link>
+          )}
         </div>
       </div>
 
