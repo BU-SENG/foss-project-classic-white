@@ -1,4 +1,4 @@
-Campus Queue System – Documentation
+Campus Queue System Documentation
 Project Overview
 The Campus Queue System is a web-based platform that allows students to join service queues remotely and track their position in real time. It helps eliminate long physical queues across campus units such as ICT centers, administrative departments, and registration offices.
 
