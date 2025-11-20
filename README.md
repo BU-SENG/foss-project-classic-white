@@ -142,7 +142,7 @@ Frontend Development
 
 Backend Development
 
-* Tope Omodunbi: Node modules setup
+* Tope Omodunbi: User and  Queue models with auth middleware, Node modules setup.
 * Enyiora Ifeanyi: Authentication, queue and service routes
 * KEZ-collab (Ebere Zidane): Admin account and packages
 * Tobiloba Adebayo: Server file
