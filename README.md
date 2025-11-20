@@ -68,15 +68,8 @@ cd server
 npm install
 ```
 
-4. Create a .env file in the server folder
 
-```
-PORT=5000
-DATABASE_URL=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-```
-
-5. Start the development servers
+4. Start the development servers
 
 Client
 
